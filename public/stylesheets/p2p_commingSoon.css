@@ -1,0 +1,91 @@
+*{
+	text-align:center;
+	margin:0;
+}
+body{
+    background-image:url(/images/fundo.png);
+}
+
+#container{
+	left:50%;
+	margin-left:-320px; /* metade da largura fictícia */
+	position:absolute;
+	width:640px; /*http://desenvolvimentoparaweb.com/css/centralizar-suas-paginas-web-com-css-como-deixar-o-site-sempre-no-centro-com-folhas-de-estilo*/
+}
+#logo{
+	display:block;
+	position:absolute;
+}
+#emBreveTexto{
+	position:absolute;
+	display:block;
+	top:300px;
+}
+#emBreveTexto p{
+	margin-bottom:15px;
+}
+#box_form{
+	background-image:url(/images/box.png);
+	width:602px;
+	height:193px;
+	top:435px;
+	position:absolute;
+}
+#box_form input.text {
+	border:3px solid #fdc56f;
+	font-size:180%;
+	left:30px;
+	margin-top:0.1em;
+	padding:0.2em 5px;
+	position:absolute;
+	top:110px;
+	width:390px;
+	text-align:left;
+	color:#939598;
+}
+#box_form input.button{
+	position:absolute;
+	margin-top:5px;
+	left:455px;
+	top:110px;
+}
+
+#follow_us{
+	left:5px;
+	padding-bottom:15px;
+	position:absolute;
+	top:650px;
+}
+#follow_us a img{
+	border:none;
+}
+
+#email_success{
+    background-image:url(/images/fundo_star.png);
+    background-position:0 5px;
+    background-repeat:no-repeat;
+    height:90px;
+    width:500px;
+}
+
+#email_success p{
+    margin-bottom:15px;
+}
+
+#email_error{
+    background-repeat:no-repeat;
+    height:90px;
+    width:500px;
+}
+
+#email_error p{
+    margin-bottom:15px;
+}
+
+#button_close{
+    display:block;
+    left:390px;
+    position:absolute;
+    top:103px;
+}
+
